@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR TEAM</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+        }
+        .container {
+            min-height: 100vh;
+            background-color: #111827;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+        .card {
+            width: 100%;
+            max-width: 28rem;
+            background-color: #1f2937;
+            color: #f3f4f6;
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+        .card-header {
+            padding: 1.5rem 1.5rem 0;
+        }
+        .card-title {
+            font-size: 1.875rem;
+            font-weight: bold;
+            text-align: center;
+            background: linear-gradient(to right, #c084fc, #f472b6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .card-content {
+            padding: 1.5rem;
+        }
+        .subtitle {
+            font-size: 1.25rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            color: #60a5fa;
+        }
+        .member-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .member-item {
+            background-color: #374151;
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            color: #e5e7eb;
+            transition: background-color 0.3s ease;
+        }
+        .member-item:hover {
+            background-color: #4b5563;
+        }
+        .join-button {
+            width: 100%;
+            margin-top: 1.5rem;
+            background: linear-gradient(to right, #8b5cf6, #ec4899);
+            color: white;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .join-button:hover {
+            background: linear-gradient(to right, #7c3aed, #db2777);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="card-title">Your TEAM</h1>
+            </div>
+            <div class="card-content">
+                <h2 class="subtitle">Meet The Team</h2>
+                <ul class="member-list">
+                    <li class="member-item">Alice Johnson</li>
+                    <li class="member-item">Bob Smith</li>
+                    <li class="member-item">Charlie Brown</li>
+                    <li class="member-item">Diana Prince</li>
+                    <li class="member-item">Ethan Hunt</li>
+                    <li class="member-item">Fiona Apple</li>
+                    <li class="member-item">George Michael</li>
+                    <li class="member-item">Hannah Montana</li>
+                    <li class="member-item">Ian McKellen</li>
+                    <li class="member-item">Julia Roberts</li>
+                </ul>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
